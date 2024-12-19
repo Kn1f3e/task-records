@@ -19,11 +19,11 @@
       addNewTodo() {
         if (this.newTodoText.trim() !== '') {
           const newTodo = {
-            id: Date.now(), // Уникальный идентификатор на основе времени
+            id: Date.now(),
             text: this.newTodoText,
           };
           this.addTodo(newTodo);
-          this.newTodoText = ''; // Очистка поля ввода
+          this.newTodoText = '';
         }
       },
     },
