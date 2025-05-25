@@ -1,6 +1,6 @@
-# Vuex
+# Task records
 
-## Запуск проекта
+## Run project
 ```
 npm run serve
 ```
